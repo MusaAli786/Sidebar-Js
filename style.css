@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.mainContainer{
+    display: flex;
+}
+
+.sidebare{
+    background-color: black;
+    width: 400px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 10px;
+    transition: ease-in 0.2s;
+}
+.hidden{
+    display: none;
+}
+.sidebare, a {
+    padding: 20px 0px 0px 80px;
+    color: rgb(225, 225, 225);
+    text-decoration: none;
+    font-size: 20px;
+}
+.sidebare>a:hover{
+  background-color: rgb(156, 225, 59);
+  border: 1px solid black;
+  color: rgb(238, 67, 212);
+  border-radius: 7px;
+  transition: all .3s ease-in-out;
+}
+.icon1{
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 50px;
+}
+.icon2{
+    position: absolute;
+    margin-top: 196px;
+    margin-left: 50px;
+}
+.icon3{
+    position: absolute;
+    margin-top: 288px;
+    margin-left: 50px;
+}
+.icon4{
+    position: absolute;
+    margin-top: 382px;
+    margin-left: 50px;
+}
+.icon5{
+    position: absolute;
+    margin-top: 475px;
+    margin-left: 50px;
+}
+.slidevarHeading{
+    color: rgb(156, 225, 59);;
+    margin-left: 35px;
+}
+.troggleButton div{
+    width: 50px;
+    height: 10px;
+    background-color: rgb(80, 185, 211);
+    margin: 10px 0px 0px 200px;
+    border-radius: 10px;
+}
+.bar1{
+   width: 10px;
+   height: 5px;
+}
+.bar2{
+    width: 10px;
+    height: 5px;
+ }
+ .bar3{
+    width: 10px;
+    height: 5px;
+ }
+ .close{
+    position: absolute;
+    color: red;
+    background: none;
+    border: none;
+    margin: 0px 0px 0px 280px;
+    font-size: 40px;
+    transition: 0.2s;
+    
+ }
+ .close:hover{
+    transform: rotate(180deg);
+ }
